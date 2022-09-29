@@ -1,0 +1,46 @@
+body{
+    width: 100vw;
+}
+.c1{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button{
+    margin: 10px;
+}
+
+.btng{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.hor{
+    display: flex;
+    flex-direction: column;
+}
+.row,.formm,.dropdown{
+    width: 90vw;
+}
+.col-sm-4,.col-sm-8{
+    border: 1px solid black;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    background-color: black;
+    color:white;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    background-color: black;
+    color: white;
+}
